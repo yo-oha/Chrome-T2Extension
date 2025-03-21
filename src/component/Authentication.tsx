@@ -192,7 +192,7 @@ const asyncActionHandlers: AsyncActionHandlers<
         let matrixHtml: string
         let addMessage6: boolean
         const someReplacedHtml = someHtml.replace(
-          /<script.*?>.*?<\/script>/gis,
+          /<script.*?>[\s\S]*?<\/script>/gi,
           '',
         )
         if (
