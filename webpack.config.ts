@@ -47,13 +47,7 @@ const config = (env: BuildEnv): Configuration => {
         ],
       }),
       new CopyPlugin({
-        patterns: [
-          {
-            from: '.',
-            to: '.',
-            context: `public_${browserTarget}`,
-          },
-        ],
+        patterns: [`${browserTarget}/manifest.json`],
       }),
       new HtmlWebpackPlugin({
         template: './src/index.html',

@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "t2extension@github.sheat.tokyo": {
+      "updates": [
+        {
+          "version": "1.1.2",
+          "update_link": "https://raw.githubusercontent.com/yo-oha/Chrome-T2Extension/refs/heads/main/firefox/releases/1.1.2.zip"
+        }
+      ]
+    }
+  }
+}

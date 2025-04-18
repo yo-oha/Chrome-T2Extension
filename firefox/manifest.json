@@ -3,7 +3,8 @@
   "name": "T2Extension",
   "browser_specific_settings": {
     "gecko": {
-      "id": "t2extension@sheat.tokyo"
+      "id": "t2extension@github.sheat.tokyo",
+      "update_link": "https://raw.githubusercontent.com/yo-oha/Chrome-T2Extension/refs/heads/main/firefox/updates.json"
     }
   },
   "version": "1.1.2",
